@@ -1,0 +1,29 @@
+.navbar-container {
+  display: flex;
+  align-items: center;
+  padding: 5px;
+  width: 100%;
+  height: 70px;
+  background-color: #070803;
+}
+
+.navbar-content {
+  display: flex;
+  align-items: center;
+  
+}
+
+.nav-items {
+    display: flex;
+    
+}
+.logo h1 {
+  color: #d22150;
+}
+
+.nav-items span {
+    display: flex;
+  color: #d22150;
+  justify-content: center;
+  
+}

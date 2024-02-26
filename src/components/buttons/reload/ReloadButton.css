@@ -1,0 +1,22 @@
+.reload-btn {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80px;
+    height: 80px;
+    bottom: 14px;
+    right: 10px;
+    border-radius: 100%;
+    background-color: #d22150;
+}
+
+.reload-btn button {
+    
+    border: none;
+    border-radius: 100%;
+    background-color: #d22150;
+}
+.reload-btn button:hover {
+    cursor: pointer;
+}

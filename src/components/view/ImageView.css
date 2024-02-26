@@ -1,0 +1,54 @@
+.viewer-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 700px;
+  height: 600px;
+  border-radius: 15px;
+}
+
+.viewer-container img {
+    display: flex;
+    width: auto;
+    height: auto;
+    max-width: 350px;
+    border-radius: 5px;
+    border: solid;
+    border-color: transparent;
+    outline: 35px;
+    border-width: 5px;
+    animation: pulse 5s infinite;
+  }
+
+.download-btn {
+    display: flex;
+    margin-top: 15px;
+}
+.download-btn button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100px;
+    height: 60px;
+    padding: 20px;
+    background-color: #d22150;
+    border: none;
+    border-radius: 15px;
+}
+
+.download-btn button {
+    cursor: pointer;
+}
+
+@keyframes pulse {
+    0% {
+      border-color: green; /* Estado inicial: borda transparente */
+    }
+    50% {
+      border-color: yellow  ; /* Estado intermediário: borda com a cor desejada */
+    }
+    100% {
+      border-color: red; /* Estado final: borda transparente novamente */
+    }
+  }
